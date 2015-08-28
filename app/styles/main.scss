@@ -1,0 +1,126 @@
+// bower:scss
+// endbower
+
+@import "mixins";
+
+/* core */
+@import "core/pallete";
+@import "core/extends";
+
+
+/* modules */
+@import "modules/all";
+// @import "modules/header";
+
+/*pages*/
+
+
+
+/*vendor*/
+
+
+/*comonents*/
+
+
+/* layouts */
+@import "layouts/details";
+@import "layouts/buttons";
+
+
+
+/* include fonts */
+// @include font-face('FontAwesome', 'fontawesome-webfont', 'font-awesome');
+// @include font-face('IzhitsaRegular', 'IzhitsaRegular', 'IzhitsaRegular');
+
+
+/* ==============================================
+                   DOM ELEMENTS
+ ============================================== */
+html {
+    height: 100%;
+    font-size: 15px;
+}
+body {
+    font-family: "OpenSans", arial;
+    min-height: 808px;
+    min-width: 1024px;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    -webkit-text-size-adjust: auto;
+}
+img {
+    max-width: 100%;
+}
+
+a {}
+
+a:hover,
+a:focus {
+   text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family:  sans-serif;
+    line-height: 1.5em;
+}
+h1 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 22px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin: .7em 0;
+}
+p {
+    padding: 5px 0;
+}
+input[type="text"] {
+    height: 40px;
+    padding: 3px 7px;
+    box-sizing: border-box;
+}
+
+textarea,
+input[type="text"] {
+       border-radius: 3px; 
+
+}
+
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+.clearfix:after {
+visibility: hidden;
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
+        
+}
+.clearfix {
+*zoom: 1;
+}
+.slider-fix {
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "agrotech",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "css-reset": "~2.5.1"
+  }
+}
