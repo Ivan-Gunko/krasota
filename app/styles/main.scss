@@ -101,24 +101,27 @@ input[type="text"] {
 textarea,
 input[type="text"] {
        border-radius: 3px; 
+       font-size: 15px;
+       font-weight: 500; 
 
 }
 
 .clearfix:before,
 .clearfix:after {
-content: " ";
-display: table;
+    content: " ";
+    display: table;
 }
+
 .clearfix:after {
-visibility: hidden;
-        display: block;
-        content: "";
-        clear: both;
-        height: 0;
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
         
 }
 .clearfix {
-*zoom: 1;
+    *zoom: 1;
 }
 .slider-fix {
     position: absolute;
